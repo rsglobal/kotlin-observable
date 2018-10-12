@@ -12,6 +12,7 @@ buildscript {
     }
 }
 
+apply plugin: 'maven'
 apply plugin: 'kotlin'
 
 defaultTasks 'run'
